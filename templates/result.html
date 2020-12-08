@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blood detection</title>
+</head>
+<body>
+<!--<form action="/upload-image" method="post" enctype="multipart/form-data"> <h2> Select image to upload:</h2>-->
+<!--    <input type="file" name="image" id="image"><br><br>-->
+<!--    <input type="submit" value="submit" name="submit">-->
+<!--</form>-->
+<!--<p>-->
+<!--    {{prediction}}-->
+<!--</p>-->
+<div class="container">
+  <div class="row">
+      <h1>Result</h1>
+      <hr>
+      <div class="col1">
+        <img src="result/{{predfloc}}" alt="Couldnt load image" width="500" height="600">
+          <br>
+          <h3>{{lab}}</h3>
+      </div><hr>
+      <form action="/" method="POST" enctype="multipart/form-data">
+          <div class="form-group">
+              <div class="custom-file">
+                  <style>
+        .tab1 {
+            tab-size: 2;
+        }
+    </style>
+                  <h3> Select image</h3>
+                  <input type="file" class="custom-file-input" name="image" id="image">
+              </div>
+          </div><br>
+          <button type="submit" class="btn btn-primary">Upload</button>
+      </form>
+  </div>
+</div>
+</body>
+</html>
