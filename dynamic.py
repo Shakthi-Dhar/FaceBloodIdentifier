@@ -13,7 +13,7 @@ net = cv2.dnn.readNet(prototxtPath, weightsPath)
 model = load_model('models/blood_noblood_classifier.model')
 # load the input image from disk, clone it, and grab the image spatial
 # dimensions
-image = cv2.imread('images/pred2.jpg')
+image = cv2.imread('static/images/pred2.jpg')
 orig = image.copy()
 (h, w) = image.shape[:2]
 # construct a blob from the image
