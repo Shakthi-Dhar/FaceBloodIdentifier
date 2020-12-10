@@ -22,7 +22,7 @@ The model is deployed as an API, [click here] (https://github.com/Shakthi-Dhar/a
 
 ### Example
 #### Input image
-<img src="https://github.com/Shakthi-Dhar/FaceBloodIdentifier/blob/main/images/pred1.jpg" width="250" height="250" />
+<img src="https://github.com/Shakthi-Dhar/FaceBloodIdentifier/blob/main/static/images/pred1.jpg" width="250" height="250" />
 
 #### Predicted output image
-<img src="https://github.com/Shakthi-Dhar/FaceBloodIdentifier/blob/main/result/pred1.jpg" width="250" height="250" />
+<img src="https://github.com/Shakthi-Dhar/FaceBloodIdentifier/blob/main/static/result/pred1.jpg" width="250" height="250" />
