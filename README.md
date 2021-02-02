@@ -6,7 +6,7 @@ A Machine learning algorithm based on Tensorflow framework to detect blood on fa
 2. We can use the model in CCTV cameras to identify if someone is bleeding
 3. Can be used for other face detection system
 
-The model is deployed as an API, [click here] (https://github.com/Shakthi-Dhar/api_face_blood).
+The model is deployed as an API, [click here](https://github.com/Shakthi-Dhar/api_face_blood).
 
 ### Tech stack used
 1. Python Machine learning model with Tensorflow keras framework
