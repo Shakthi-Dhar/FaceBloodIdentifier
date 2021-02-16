@@ -6,8 +6,6 @@ A Machine learning algorithm based on Tensorflow framework to detect blood on fa
 2. We can use the model in CCTV cameras to identify if someone is bleeding
 3. Can be used for other face detection system
 
-The model is deployed as an API, [click here](https://github.com/Shakthi-Dhar/api_face_blood).
-
 ### Tech stack used
 1. Python Machine learning model with Tensorflow keras framework
 2. Python Flask frame work for deployment
@@ -26,3 +24,11 @@ The model is deployed as an API, [click here](https://github.com/Shakthi-Dhar/ap
 
 #### Predicted output image
 <img src="https://github.com/Shakthi-Dhar/FaceBloodIdentifier/blob/main/static/result/pred1.jpg" width="250" height="250" />
+
+#### Check out the machine learning model used,[FaceBloodIdentifier](https://github.com/Shakthi-Dhar/FaceBloodIdentifier)
+
+#### Test the API on postman with POST request, API url: [https://faceblood-detection-api.herokuapp.com/](https://faceblood-detection-api.herokuapp.com/)
+
+#### Check out the github repository of the API: [Flask API to detect face blood](https://github.com/Shakthi-Dhar/FlaskAPI-FaceBloodIdentifier)
+
+#### Check out the IoT device tools & code : [Accident Detection with ESP8266](https://github.com/Shakthi-Dhar/Accident_Detect_ESP8266_MPU6050)
